@@ -24,7 +24,7 @@ def get_usdc_from_eth(quoter_contract, eth_amount, token_in, token_out, fee, blo
         amount_in_wei,
         0
     ).call(block_identifier=block_number)
-    return w3.from_wei(amount_out, 'mwei')  # Assuming USDC has 6 decimals
+    return w3.from_wei(amount_out, 'mwei')  # USDC has 6 decimals
 
 # Token addresses and fee tier
 eth_address = '0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2'  # Wrapped Ether
