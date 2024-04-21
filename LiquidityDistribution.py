@@ -47,7 +47,7 @@ plt.figure(figsize=(15, 7))
 # Plot pool liquidity
 plt.bar(ticks, pool_liquidity_values, label='Pool Liquidity', width=0.4, color='blue')
 
-# Set your position's liquidity at the ticks with the correct spacing
+# Set position's liquidity at the ticks with the correct spacing
 for i, tick in enumerate(ticks):
     if tick_start <= tick <= tick_end and (tick - tick_start) % tick_spacing == 0:
         position_liquidity_values[i] = position_liquidity  # Only set at valid ticks
