@@ -41,7 +41,7 @@ USDC = "0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48"
 # Reserves from the blockchain query
 reserves = {
     WETH: 15446.42814216754,  # WETH reserves
-    USDC: 26853692.230452,     # USDC reserves in smaller units (need to adjust if decimals are not considered)
+    USDC: 26853692.230452,     # USDC reserves 
 }
 
 # Fee percent for Uniswap V2
