@@ -6,8 +6,6 @@ import numpy as np
 # Connect to an Ethereum node
 w3 = Web3(Web3.HTTPProvider('https://eth.api.onfinality.io/rpc?apikey=afcd9beb-6ae7-4ab5-80d8-a619cb75af22'))
 
-# Verify the connection
-
 # Uniswap V3 pool address and ABI for accessing liquidity
 pool_address = '0x88e6A0c2dDD26FEEb64F039a2c41296FcB3f5640'
 
