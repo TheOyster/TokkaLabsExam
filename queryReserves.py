@@ -17,4 +17,3 @@ reserves = contract.functions.getReserves().call(block_identifier=block_number)
 print("Reserve 0:", reserves[0])
 print("Reserve 1:", reserves[1])
 
-# Optionally, converting from wei if necessary (depends on token decimals)
