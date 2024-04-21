@@ -16,7 +16,7 @@ def simulate_uniswap_transaction(token_in_qty, token_in, reserves, fee_percent):
     fee_percent (float): Transaction fee percentage used by the pool.
     
     Returns:
-    float: The amount of the token being received from the pool.
+    The amount of the token being received from the pool.
     """
     # Determine input and output reserves based on the token addresses
     if token_in == WETH:
